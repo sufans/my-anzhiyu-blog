@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Stan的自留地
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Stan
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://stan.loc.cc
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -108,19 +108,19 @@ deploy:
 bangumi:
   enable: true
   source: bili
-  path:
-  vmid: 372204786
+  path: /source/bangumis/index.html
+  vmid: 20720332
   title: "追番列表"
   quote: "生命不息，追番不止！"
   show: 1
-  lazyload: false
+  lazyload: true
   loading:
   showMyComment: false
   pagination: false
   metaColor:
   color:
-  webp:
-  progress:
+  webp: true
+  progress: true
   extraOrder:
   proxy:
     host: "代理host"
