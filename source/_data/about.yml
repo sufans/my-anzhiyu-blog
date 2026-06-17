@@ -1,0 +1,81 @@
+- class_name: 关于页
+  subtitle: 生活明朗，万物可爱
+  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+  name: 博主
+  description: 是一名 开发者、博主
+  helloAbout: 欢迎来到我的博客！
+  avatarSkills:
+    left:
+      - 技术爱好者
+      - 终身学习者
+    right:
+      - 脚踏实地行动派
+      - 乐于分享
+  skillsTips:
+    tips: 技能
+    title: 技术栈
+  careers:
+    tips: 关于
+    title: 了解更多
+    list:
+      - desc: 关于我的更多信息
+        color: "#357ef5"
+    img: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 所以
+    word:
+      - 热爱
+      - 专注
+      - 极致
+  statistic:
+    cover: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/statistic.webp
+    link: /about
+    text: 了解更多
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国
+    background: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/map.webp
+    backgroundDark: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/map-dark.webp
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: "2000"
+    selfInfoTips2: 职业
+    selfInfoContent2: 开发者
+    selfInfoTips3: 现在
+    selfInfoContent3: 博主
+  personalities:
+    author_name: 提倡者
+    personality_type: INFJ-A
+    photo_url: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/photo.webp
+    personality_img: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/personality.webp
+    name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
+    personality_type_color: "#ac899c"
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 保持
+    maxim_bottom: 热爱
+  buff:
+    buff_tips: 特长
+    buff_top: 编程
+    buff_bottom: 写作
+  game:
+    game_tips: 游戏
+    game_title: 原神
+    game_uid: "123456789"
+    game_bg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/game.webp
+  comic:
+    comic_tips: 动漫
+    comic_title: 追番
+    comic_list: []
+  music:
+    music_tips: 音乐
+    music_title: 音乐推荐
+    music_link: /music
+    music_bg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/music.webp
+  like:
+    like_tips: 关注
+    like_title: 技术
+    like_bottom: 探索
+    like_bg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/like.webp

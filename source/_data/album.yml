@@ -1,0 +1,14 @@
+- class_name: 我的相册
+  path_name: /gallery
+  type: 2
+  description: 记录生活中的美好瞬间
+  cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list: []
