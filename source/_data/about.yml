@@ -1,16 +1,16 @@
 - class_name: 关于页
-  subtitle: 生活明朗，万物可爱
-  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
-  name: 博主
-  description: 是一名 开发者、博主
-  helloAbout: 欢迎来到我的博客！
+  subtitle: 不知道我还能不能撑得住
+  avatarImg: https://avatars.githubusercontent.com/u/185651262
+  name: Stan
+  description: 是一名 咸鱼 菜鸟
+  helloAbout: Hello World
   avatarSkills:
     left:
-      - 技术爱好者
-      - 终身学习者
+      - 科技爱好者
+      - 啥也不懂的小白
     right:
       - 脚踏实地行动派
-      - 乐于分享
+      - 什么都晓得，但就是不懂
   skillsTips:
     tips: 技能
     title: 技术栈
@@ -20,7 +20,7 @@
     list:
       - desc: 关于我的更多信息
         color: "#357ef5"
-    img: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+    img: https://avatars.githubusercontent.com/u/185651262
   aboutsiteTips:
     tips: 追求
     title1: 源于
@@ -40,42 +40,42 @@
     backgroundDark: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/map-dark.webp
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: "2000"
+    selfInfoContentYear: "二十世纪末"
     selfInfoTips2: 职业
-    selfInfoContent2: 开发者
+    selfInfoContent2: 咸鱼
     selfInfoTips3: 现在
-    selfInfoContent3: 博主
+    selfInfoContent3: 翻身的咸鱼
   personalities:
-    author_name: 提倡者
-    personality_type: INFJ-A
+    author_name: 母鸡啊
+    personality_type: 没测
     photo_url: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/photo.webp
     personality_img: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/personality.webp
     name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
     personality_type_color: "#ac899c"
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 保持
-    maxim_bottom: 热爱
+    maxim_top: 走自己的路
+    maxim_bottom: 让别人说去吧！
   buff:
     buff_tips: 特长
-    buff_top: 编程
-    buff_bottom: 写作
+    buff_top: 吃饭
+    buff_bottom: 睡觉
   game:
     game_tips: 游戏
-    game_title: 原神
-    game_uid: "123456789"
-    game_bg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/game.webp
+    game_title: 骑马与砍杀
+    game_uid: ""
+    game_bg: https://
   comic:
     comic_tips: 动漫
     comic_title: 追番
-    comic_list: []
+    comic_list: [凡人修仙传]
   music:
-    music_tips: 音乐
-    music_title: 音乐推荐
+    music_tips: 音乐偏好
+    music_title: 当然是华语音乐的流行天王———周杰伦
     music_link: /music
-    music_bg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/music.webp
+    music_bg: https://
   like:
-    like_tips: 关注
-    like_title: 技术
-    like_bottom: 探索
-    like_bg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/like.webp
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bottom: 手机 电脑 系统
+    like_bg: https://
