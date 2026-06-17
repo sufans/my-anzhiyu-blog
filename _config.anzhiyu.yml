@@ -53,8 +53,7 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+  GitHub: https://github.com/sufans || anzhiyu-icon-github
 
 # 作者卡片 状态
 author_status:
@@ -96,7 +95,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -126,7 +125,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://avatars.githubusercontent.com/u/185651262?v=4
   effect: false
 
 # Disable all banner image
@@ -229,14 +228,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
-  QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
-      link:
-      text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
-      link:
-      text: 支付宝
+  enable: false
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -299,7 +291,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: # Twikoo/Waline
+  use: Giscus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -361,17 +353,16 @@ artalk:
 # giscus
 # https://giscus.app/
 giscus:
-  repo: # GitHub repository name
-  repo_id: # GitHub repository id
-  category_id: # GitHub repository category id
+  repo: sufans/my-anzhiyu-blog
+  repo_id: R_kgDOSg-JOw
+  category_id: DIC_kwDOSg-JO84C9b1N
   theme:
     light: light
     dark: dark
-  option: # options
+  option:
     data-lang: zh-CN
-    data-mapping:
-    data-category:
-    data-input-position:
+    data-mapping: title
+    data-category: Announcements
 
 # Chat Services
 # --------------------------------------
@@ -412,11 +403,11 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2026
   custom_text:
   runtime:
-    enable: false
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    enable: true
+    launch_time: 05/22/2026 17:26:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -584,12 +575,6 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  - name: google-site-verification
-    content: xxx
-  - name: baidu-site-verification
-    content: code-xxx
-  - name: msvalidate.01
-    content: xxx
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -746,25 +731,11 @@ hr_icon:
 
 # the subtitle on homepage (主页subtitle)
 subtitle:
-  enable: false
-  # Typewriter Effect (打字效果)
+  enable: true
   effect: true
-  # Effect Speed Options (打字效果速度参数)
-  startDelay: 300 # time before typing starts in milliseconds
-  typeSpeed: 150 # type speed in milliseconds
-  backSpeed: 50 # backspacing speed in milliseconds
-  # loop (循环打字)
-  loop: true
-  # source 调用第三方服务
-  # source: false 关闭调用
-  # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
-  # source: 2  调用一句网（简体） http://yijuzhan.com/
-  # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
-  # subtitle 会先显示 source , 再显示 sub 的内容
-  source: 1
-  # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    # - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+    - 记录学习历程
+    - 分享技术心得
 
 # Loading Animation (加载动画)
 preloader:
@@ -776,7 +747,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 自定加载动画义头像
+  avatar: https://avatars.githubusercontent.com/u/185651262?v=4 # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -797,12 +768,10 @@ aside:
     name_link: /
 
   card_announcement:
-    enable: false
+    enable: true
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
-    face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
-    backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
+    enable: false
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -845,7 +814,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 05/22/2026 17:26:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1035,25 +1004,25 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
+  title: 欢迎来到我的博客
+  subTitle: 学习 · 分享 · 进步
   siteText: anheyu.com
   category:
-    - name: 前端
-      path: /categories/前端开发/
-      shadow: var(--anzhiyu-shadow-blue)
-      class: blue
-      icon: anzhiyu-icon-dove
-    - name: 大学
-      path: /categories/大学生涯/
-      shadow: var(--anzhiyu-shadow-red)
-      class: red
-      icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
-      shadow: var(--anzhiyu-shadow-green)
-      class: green
-      icon: anzhiyu-icon-book
+    - name: 建站
+      path: /categories/建站/
+      icon: anzhiyu-icon-code
+    - name: AI技术
+      path: /categories/AI技术/
+      icon: anzhiyu-icon-robot
+    - name: 技术分享
+      path: /categories/技术分享/
+      icon: anzhiyu-icon-lightbulb
+    - name: 开源资讯
+      path: /categories/开源资讯/
+      icon: anzhiyu-icon-github
+    - name: 开发工具
+      path: /categories/开发工具/
+      icon: anzhiyu-icon-tools
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: false
@@ -1112,12 +1081,8 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
-  console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
-  id: 8152976493
-  server: netease
-  volume: 0.7 # 默认音量
-  all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
+  enable: false
+  console_widescreen_music: false
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
 music_page_default: nav_music
