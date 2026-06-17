@@ -115,7 +115,6 @@ deploy:
 bangumi:
   enable: true
   source: bili
-  path: /source/bangumis/index.html
   vmid: 20720332
   title: "追番列表"
   quote: "生命不息，追番不止！"
@@ -131,5 +130,6 @@ bangumi:
   extraOrder:
   extra_options:
     top_img: false
+    comments: false
     lazyload:
       enable: false
