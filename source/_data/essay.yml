@@ -1,0 +1,11 @@
+- class_name: 即刻短文
+  title: 说说
+  subTitle: 随时随地，分享生活
+  tips: 欢迎来到我的博客~
+  buttonLink: /essay
+  buttonText: 查看更多
+  top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  limit: 30
+  essay_list:
+    - content: 欢迎大家来到我的博客
+      date: 2026-06-18
