@@ -1,16 +1,16 @@
 - class_name: 关于页
-  subtitle: 不知道我还能不能撑得住
-  avatarImg: https://avatars.githubusercontent.com/u/185651262
-  name: Stan
-  description: 是一名 咸鱼 菜鸟
-  helloAbout: Hello World
+  subtitle: 生活明朗，万物可爱
+  avatarImg: https://avatars.githubusercontent.com/u/185651262?v=4
+  name: 博主
+  description: 是一名 开发者、博主
+  helloAbout: 欢迎来到我的博客！
   avatarSkills:
     left:
-      - 科技爱好者
-      - 啥也不懂的小白
+      - 技术爱好者
+      - 终身学习者
     right:
       - 脚踏实地行动派
-      - 什么都晓得，但就是不懂
+      - 乐于分享
   skillsTips:
     tips: 技能
     title: 技术栈
@@ -20,7 +20,7 @@
     list:
       - desc: 关于我的更多信息
         color: "#357ef5"
-    img: https://avatars.githubusercontent.com/u/185651262
+    img: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
   aboutsiteTips:
     tips: 追求
     title1: 源于
@@ -30,52 +30,52 @@
       - 专注
       - 极致
   statistic:
-    cover: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/statistic.webp
+    cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
     link: /about
     text: 了解更多
   map:
     title: 我现在住在
     StrengthenTitle: 中国
-    background: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/map.webp
-    backgroundDark: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/map-dark.webp
+    background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+    backgroundDark: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: "二十世纪末"
+    selfInfoContentYear: "2000"
     selfInfoTips2: 职业
-    selfInfoContent2: 咸鱼
+    selfInfoContent2: 开发者
     selfInfoTips3: 现在
-    selfInfoContent3: 翻身的咸鱼
+    selfInfoContent3: 博主
   personalities:
-    author_name: 母鸡啊
-    personality_type: 没测
-    photo_url: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/photo.webp
-    personality_img: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/about/personality.webp
+    author_name: 提倡者
+    personality_type: INFJ-A
+    photo_url: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+    personality_img: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
     name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
     personality_type_color: "#ac899c"
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 走自己的路
-    maxim_bottom: 让别人说去吧！
+    maxim_top: 保持
+    maxim_bottom: 热爱
   buff:
     buff_tips: 特长
-    buff_top: 吃饭
-    buff_bottom: 睡觉
+    buff_top: 编程
+    buff_bottom: 写作
   game:
     game_tips: 游戏
-    game_title: 骑马与砍杀
-    game_uid: ""
-    game_bg: https://
+    game_title: 原神
+    game_uid: "123456789"
+    game_bg: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
   comic:
     comic_tips: 动漫
     comic_title: 追番
-    comic_list: [凡人修仙传]
+    comic_list: []
   music:
-    music_tips: 音乐偏好
-    music_title: 当然是华语音乐的流行天王———周杰伦
+    music_tips: 音乐
+    music_title: 音乐推荐
     music_link: /music
-    music_bg: https://
+    music_bg: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
   like:
-    like_tips: 关注偏好
-    like_title: 数码科技
-    like_bottom: 手机 电脑 系统
-    like_bg: https://
+    like_tips: 关注
+    like_title: 技术
+    like_bottom: 探索
+    like_bg: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
